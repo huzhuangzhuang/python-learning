@@ -16,3 +16,7 @@ fruits[0] = "红富士苹果"  # 修改元素
 print("我喜欢的水果：")
 for fruit in fruits:
     print(f"- {fruit}")
+
+# 让用户输入出生年份，用f-string直接算年龄
+birth = int(input("出生年份："))
+print(f"你的年龄是{2024-birth}岁")
